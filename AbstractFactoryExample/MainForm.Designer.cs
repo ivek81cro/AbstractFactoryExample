@@ -52,14 +52,15 @@
             this.btnResizable.UseVisualStyleBackColor = true;
             this.btnResizable.Click += new System.EventHandler(this.btnResizable_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 450);
             this.Controls.Add(this.btnResizable);
             this.Controls.Add(this.btnFixed);
-            this.Name = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "MainForm";
             this.Text = "Abstract Factory Example";
             this.ResumeLayout(false);
 
