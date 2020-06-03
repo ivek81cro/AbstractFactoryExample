@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteProduct.cs" />
     <Compile Include="FixedSizeWindowFactory.cs" />
     <Compile Include="FormProduct.cs">
       <SubType>Form</SubType>

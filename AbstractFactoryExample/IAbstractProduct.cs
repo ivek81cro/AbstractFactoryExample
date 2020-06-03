@@ -1,9 +1,10 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace AbstractFactoryExample
 {
     public interface IAbstractProduct
     {
-        Form CreateFormFunction();
+        void CloseForm();
     }
 }

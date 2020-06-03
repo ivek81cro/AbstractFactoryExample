@@ -12,20 +12,14 @@ namespace AbstractFactoryExample
 
         private void btnFixed_Click(object sender, EventArgs e)
         {
-            Form f = FormCreateMethod(new FixedSizeWindowFactory());
-            f.Show();
+            var form = new FixedSizeWindowFactory();
+            form.CreateProduct();
         }
 
         private void btnResizable_Click(object sender, EventArgs e)
         {
-            Form f = FormCreateMethod(new ResizableWindowFactory());
-            f.Show();
-        }
-
-        Form FormCreateMethod(IAbstractFactory factory)
-        {
-            var FormA = factory.CreateProduct();
-            return FormA.CreateFormFunction();
+            var form = new ResizableWindowFactory();
+            form.CreateProduct();
         }
     }
 }

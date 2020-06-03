@@ -4,7 +4,7 @@
     {
         public IAbstractProduct CreateProduct()
         {
-            return new ConcreteProduct(true);
+            return new FormProduct(true);
         }
     }
 }
