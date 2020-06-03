@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace AbstractFactoryExample
+﻿namespace AbstractFactoryExample
 {
     public interface IAbstractProduct
     {
